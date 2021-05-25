@@ -99,6 +99,7 @@ https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html#create-sy
   
 * On the same link, the section *Connecting to your cluster with a username and password* describes the steps to authenticate your client and connect to MSK cluster for performing all kafka operations
 
+<br />
 
 ## Setting up the Secondary MSK Cluster
 All the steps as mentioned in the *Setting up the Primary MSK Cluster* section will also apply while creating a secondary MSK cluster.
@@ -109,6 +110,7 @@ Please review the below instructions before starting to provision the secondary 
   
     e.g. Primary region CIDR: 10.0.0.0/16 and Secondary region CIDR: 172.31.0.0/16  
 
+<br />
 
 ## Connecting the Primary and Secondary AWS Regions
 In this section we will be connecting the primary and secondary AWS regions to enable communication between them.
@@ -122,8 +124,9 @@ https://docs.aws.amazon.com/vpc/latest/peering/create-vpc-peering-connection.htm
     Refer this link for instructions: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html
 
 ## Next
-[Setting Up MirrorMaker2](2_Setting_Up_MirrorMaker2.md)
+[Setting up MirrorMaker2 Geo-Replication](2_Setting_Up_MirrorMaker2.md)
 
 ## Resources
 * [Useful Kafka Commands](Useful_Kafka_Commands.md)
+* [MSK Developer Guide](https://docs.amazonaws.cn/en_us/msk/latest/developerguide/MSKDevGuide.pdf)
 

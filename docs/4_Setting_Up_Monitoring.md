@@ -22,6 +22,7 @@ On this page
   
   ![MSK_Dashboard](../images/MSK_Dashboard.png)
   
+<br />
 
 ## Importing the MirrorMaker2 Dashboard
 * Launch the Grafana web application on http://<Prometheus_EC2_Public_IPv4_DNS_Address>:3000/

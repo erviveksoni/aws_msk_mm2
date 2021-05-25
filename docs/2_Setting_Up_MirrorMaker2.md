@@ -7,7 +7,8 @@ The instructions provide guidance to set up the active-passive MM2 topology wher
 
 However, this setup can be easily extended to achieve active-active MM2 replication topology as well.
 
-> **_NOTE:_** Apache Kafka version 2.7 and above have incorporated the automated consumer offset sync functionality.  Any version below 2.7 would result into not replicating the consumer offsets across clusters. 
+> **_NOTE:_** Apache Kafka version 2.7 and above have incorporated the automated consumer offset sync functionality.  
+> Any version below 2.7 would result into not replicating the consumer offsets across clusters. 
 
 On this page
 
@@ -152,7 +153,7 @@ If everything is correctly configured then you should see a similar output on th
 ![MM2_Start](../images/MM2_Start.png)
 
 ## Next
-[Setting up Prometheus and Grafana](3_Setting_Up_Prometheus.md)
+[Setting up Prometheus Metric and Grafana Servers](3_Setting_Up_Prometheus.md)
 
 ## Resources
 * [Useful Kafka Commands](Useful_Kafka_Commands.md)
@@ -163,3 +164,4 @@ If everything is correctly configured then you should see a similar output on th
 * [MM2 Setup AWS Lab](https://amazonmsk-labs.workshop.aws/en/migration/overview.html)
 * [MM2 Topologies](https://www.instaclustr.com/apache-kafka-mirrormaker-2-practice/#)
 * [A look inside Kafka Mirrormaker 2](https://blog.cloudera.com/a-look-inside-kafka-mirrormaker-2/)
+* [kafka in multiple datacenters](https://mbukowicz.github.io/kafka/2020/08/31/kafka-in-multiple-datacenters.html)

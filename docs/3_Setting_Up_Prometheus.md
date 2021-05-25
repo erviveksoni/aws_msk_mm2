@@ -1,4 +1,4 @@
-# Setting up Prometheus and Grafana
+# Setting up Prometheus Metric and Grafana Servers
 This section focuses on how to set up Prometheus and Grafana for capturing MSK and MM2 metrics.
 
 On this page
